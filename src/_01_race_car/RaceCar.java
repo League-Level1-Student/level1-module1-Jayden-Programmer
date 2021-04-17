@@ -64,11 +64,11 @@ public class RaceCar {
 		damaged = true;
 		System.out.println("\nYour car has been damaged and needs a pit stop.\nThree cars zoomed by you.");
 	}
-	
+	 
 	/**
 	 * Overtakes the next car in the race.
 	 */
-	public void overtake() {
+	public void overtake() {  
 		if (positionInRace <= 1)
 			System.out.println("The car is already in the lead.");
 		else {
