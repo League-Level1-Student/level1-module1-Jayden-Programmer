@@ -5,7 +5,9 @@ public class Catrunner {
 	Cat cat = new Cat("Tom");
 	cat.meow();
 	cat.printName();
+	while (cat.()!=1) {  
 	cat.kill(); 
 	}
 
+}
 }
